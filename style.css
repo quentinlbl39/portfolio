@@ -1,10 +1,9 @@
-
-@import url('https://fonts.googleapis.com/css2? family= Oswald:wght@500 & family= Ranchers & family= Roboto & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@500;700&display=swap');
 
 	body {
 		
 		margin: 0 2%;
-		font-family: 'Oswald',sans-serif;
+		font-family: 'Montserrat', sans-serif;
 		font-weight: 900;
 		background-color: grey;
 	}
@@ -68,7 +67,7 @@
 	}
 	.page-content header h1 {
 		margin: 0;
-		font-family: 'Ranchers', sans-serif;
+		font-family: 'Montserrat Subrayada', sans-serif;
 		font-size: 10vw;
 		color:white;
 		text-shadow: -10px 0px 0px rgba(50, 50, 50);
@@ -98,8 +97,7 @@
 		margin-left: 10%;
 		margin-top: 15%;
 		line-height: 2;
-		font-family: 'Roboto', sans-serif;
-		font-size: 2.5vw;
+		font-size: 2.35vw;
 	}	
 	.page-content #portrait-section .portrait img {
 		width: 25vw;
@@ -111,7 +109,6 @@
 		margin-left: 7%;
 		margin-bottom: 0%;
 		margin-top: 0%;
-		font-family: 'Roboto', sans-serif;
 		font-size: 2vw;
 		text-decoration: underline;
 	}	
@@ -140,7 +137,12 @@
 
 	}
 	
+	
+
+
+
 	.page-content #apropos-section{
+		
 		margin-top: 2%;
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -148,13 +150,21 @@
 		grid-column-gap: 8px;
 		grid-row-gap: 8px;
 	}
+
+	.page-content #apropos-section h2{
+		font-size:1.6vw ;
+		text-decoration: underline;
+	}
+
 	.page-content #apropos-section .enseignement{
+		
 		background-color: white;
 		border-radius: 25px;
 		border: 2px solid black ;
 		grid-area: 1 / 1 / 2 / 3;
 	}
 	.page-content #apropos-section .experience{
+	
 		background-color: white;
 		border-radius: 25px;
 		border: 2px solid black ;
@@ -162,7 +172,7 @@
 	}
 	.page-content #apropos-section .doneesperso{
 		background-color: white;
-		font-size: 1.3vw;
+		font-size: 1.5vw;
 		border-radius: 25px;
 		border: 2px solid black ;
 		text-align: center;
@@ -172,7 +182,7 @@
 		margin-left: 1%;
 		display: flex;
 		align-items: center;
-		font-size: 1.5vw;
+		font-size: 2vw;
 	}
 	.page-content #apropos-section .titre img{
 		width: 3vw;
@@ -190,7 +200,6 @@
 		margin-top: 15px;
 		margin-bottom: 50px;
 		font-size: 2vw;
-		font-family: arial black;
 		background: black;
 	    border: 2px solid black;
 	    border-radius: 25px;
